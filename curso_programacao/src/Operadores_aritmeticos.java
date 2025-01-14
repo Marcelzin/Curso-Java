@@ -1,0 +1,46 @@
+
+public class Operadores_aritmeticos {
+
+	public static void main(String[] args) {
+		
+		int numero1 = 3;
+		int numero2 = 9;
+		double numero3 = 2.34;
+		
+		// Adição 
+		var resultadoSoma = numero1 + numero2 + numero3;
+		
+		System.out.println("O resultado da soma dos números é: "+ resultadoSoma);
+		
+		// Subtração
+		var resultadoSubtracao = numero1 - numero2 - numero3;
+		
+		System.out.println("O resultado da subtração dos números é: "+ resultadoSubtracao);
+		
+		// Multiplicação
+		var resultadoMultiplicacao = numero1 * numero2 * numero3;
+		
+		System.out.println("O resultado da multiplicação dos números é: "+ resultadoMultiplicacao);
+
+		// Divisão
+		var resultadoDivisao = numero1 / numero2 / numero3;
+		
+		System.out.println("O resultado da divisão dos números é: "+ resultadoDivisao);
+
+		// Resto da divisão ("mod")
+		var resultadoRestoDivisao = numero1 % numero2 ;
+		
+		System.out.println("O resultado do resto da divisão dos números é: "+ resultadoRestoDivisao);
+		
+		// Precedência
+		// 1° Lugar: * / % (Multiplicação, divisão e mod)
+		// 2° Lugar: + - (Adição e Subtração)
+
+		System.out.println(
+			"Vale ressaltar que existe ordem de procedimentos ao realizar um calculo com múltiplos operadores. "
+			+ "Sendo essa ordem: 1° Lugar: * / % (Multiplicação, divisão e mod) "
+			+ "2° Lugar: + - (Adição e Subtração)");
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Variaveis {
+
+	public static void main(String[] args) {
+		
+		// Estrutura de definição de variável:
+		// <tipo> <nome> = <valor inicial>;
+		
+		String nome = "Marcel";
+		int idade = 19;
+		double altura = 1.82;
+		char sexo = 'M';
+		
+		System.out.println("Meu nome é: " + nome + " tenho " + idade + " anos de idade");
+
+	}
+
+}

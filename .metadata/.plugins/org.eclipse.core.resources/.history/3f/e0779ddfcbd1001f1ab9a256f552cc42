@@ -1,0 +1,16 @@
+
+public class Operadores_aritmeticos {
+
+	public static void main(String[] args) {
+		
+		int numero1 = 3;
+		int numero2 = 9;
+		double numero3 = 2.34;
+		
+		var resultadoSoma = numero1 + numero2 + numero3;
+		
+		System.out.println(resultadoSoma);
+
+	}
+
+}
