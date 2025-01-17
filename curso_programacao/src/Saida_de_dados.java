@@ -28,5 +28,7 @@ public class Saida_de_dados {
 	//Para considerar o separador de decimais como ponto, ANTES da declaração do Scanner, faça:
 	Locale.setDefault(Locale.US);
 	
+	// Concatenação de vários elementos
+	System.out.println("Marcel tem " + years + " anos de idade");
 	}
 }
